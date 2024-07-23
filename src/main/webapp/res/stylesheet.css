@@ -1,0 +1,153 @@
+ *{
+ box-sizing: border-box;
+ }
+ .biglogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.dropdown{
+  text-align: center;
+  
+}
+@media only screen and (max-width: 768px){
+	 [class*="par-"] {
+    width: 100%;
+  }
+}
+[class*="par-"]{
+	  width: 15%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+    position: relative;
+  display: inline-block;
+    text-align: center;
+  
+}
+
+.take_test{
+	background-color: blue;
+	width: 6%;
+	margin: 20px;
+	color: white;
+	text-align: center;
+	padding: 6px 10px;
+	font-family: Sans-serif;
+	float: left;
+}
+[class*="Sign_"]{
+	width: 6%;
+	margin: 20px;
+	color: white;
+	text-align: center;
+	padding: 6px 10px;
+	font-family: Sans-serif;
+	float: right;
+	
+}
+.Sign_in{
+	background-color: blue;
+}
+.Sign_up{
+	background-color: #1E90FF;
+}
+.Signout{
+	width: 12%;
+    float: right;	
+}
+.Sout{
+	color: white;
+	text-align: center;
+	font-family: Sans-serif;
+	text-align: center;
+	background-color: #1E90FF;
+	border: none;
+    outline:none;
+    	padding: 8px 40px;
+}
+.Prfle{
+	text-align: center;
+    color: white;
+	text-align: center;
+	font-family: Sans-serif;
+	background-color: blue;
+	border: none;
+    outline:none;	
+    	padding: 8px 40px;
+}
+.Profile{
+	width: 10%;
+    float: right;
+	
+}
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.form-inline img{
+  vertical-align: middle;
+}
+.form-inline [class*="paar-"]{
+  width: 15%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  vertical-align: middle;
+  
+}
+.search-result-box .search-item {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e3eaef;
+    margin-bottom: 20px
+}
+.text-success {
+    color: #0acf97!important;
+}
+.mb-1 a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.tabs{
+  text-align: center;
+}
+[class*="Test-"]{
+	width: 15%;
+	margin: 20px;
+	color: white;
+	text-align: center;
+	padding: 16px 20px;
+	font-family: Sans-serif;
+    position: relative;
+  	display: inline-block;
+    text-align: center;
+}
+
+.Test-A{
+	background-color: blue;
+}
+.Test-E{
+	background-color: #1E90FF;
+}
+.par-5{
+		background-color: #1E90FF;
+		color: white;
+}
+.container_ {
+    border: 1px solid rgba(0, 0, 0, .11);
+    padding: 10px;
+}
+
+.controls-item {
+    display: inline-block;
+}
+
+.btn {
+    margin: 1px;
+}
